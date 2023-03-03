@@ -1,0 +1,41 @@
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 100%;
+  max-width: 300px;
+  border-right: 1px solid var(--text-dimmed);
+  padding: 8px;
+}
+
+.sidebar-header {
+  padding: 0px 12px;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.sidebar-row {
+  padding: 5px 12px;
+  border-radius: 5px;
+  color: var(--text-dimmed);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.sidebar-row svg {
+  width: 16px;
+  height: 16px;
+}
+
+.sidebar-row:hover {
+  background-color: var(--bg-dimmed);
+}
+
+.chat-section {
+  width: 100%;
+  padding: 20px;
+}
