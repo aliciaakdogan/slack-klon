@@ -1,0 +1,11 @@
+.message-container {
+  display: flex;
+  padding: 5px 15px;
+  gap: 10px;
+}
+
+.message-header {
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+}
