@@ -7,7 +7,7 @@ export default function Sidebar() {
   const { data: channels } = useQuery({
     queryKey: ["channels"],
     queryFn: () =>
-      fetch("http://localhost:3000/channels").then((data) => data.json()),
+      fetch("http://localhost:4000/channels").then((data) => data.json()),
   });
 
   return (

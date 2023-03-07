@@ -39,3 +39,20 @@
   width: 100%;
   padding: 20px;
 }
+
+.channel-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-messages-container {
+  flex: 1;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.channel-message-box {
+}
